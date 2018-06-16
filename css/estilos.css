@@ -1,0 +1,225 @@
+/*Estilos generales*/
+* {
+	border: 0;
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+body {
+	font: 16px/normal 'Roboto', sans-serif;
+}
+.container {
+	max-width: 760px;
+	margin: 0 auto;
+}
+.clearfix {
+	clear: both;
+}
+h1 {
+	color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 0 0 15px;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+h2 {
+	text-align: center;
+    text-transform: uppercase;
+    padding: 60px 0 25px;
+    font-size: 1.2em;
+    color: #333335;
+    font-weight: 700;
+}
+h3 {
+	margin: 60px 0 20px;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+.btn {
+	display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+/*navbar*/
+.navbar .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar {
+    border: none;
+    background-color: transparent;
+}
+.logo {
+    display: block;
+    width: 200px;
+    padding: 15px 0;
+    height: auto;
+}
+.logo img {
+	width: 100%;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #b0b0b0;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #b0b0b0;
+    background-color: transparent;
+}
+.navbar-fixed-top.scrolled {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: background-color 200ms linear;
+}
+.navbar-toggle {
+    margin:20px 0;
+}
+/*inicio*/
+.botones {
+	text-align: center;
+}
+.btn.uno {
+	background-color: #3479b7;
+}
+.btn.dos {
+	background-color: #5bb85c;
+}
+.carousel-caption p {
+	color: #ffffff;
+    text-align: center;
+    margin: 16px auto 0;
+    padding-bottom: 55px;
+}
+.carousel,
+.carousel-inner,
+.carousel-inner>.item {
+    height: 450px;
+}
+.carousel-inner>.item>img {
+    width: 100%;
+}
+.carousel-control.right,
+.carousel-control.left {
+    background: transparent;
+}
+/*descripcion*/
+.descripcion p {
+	text-align: center;
+    margin: 0 auto;
+}
+.descripcion img {
+	display: block;
+    width: 45%;
+    margin: 35px auto 0;
+}
+/*informacióm*/
+.informacion {
+	background-color: #fafafa;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.informacion p {
+    margin: 0 auto;
+}
+.informacion .btn {
+	margin: 20px 0;
+}
+/*contacto*/
+.contacto li {
+	margin-bottom: 4px;
+}
+.contacto li span {
+	font-weight: bold;
+}
+.contacto a {
+	margin: 25px 0 60px;
+    display: block;
+}
+.suscribete input {
+	border: 1px solid #bababa;
+    height: 39px;
+    width: 200px;
+    margin: 12px 0;
+    padding: 0 10px;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.suscribete button {
+	display: inline-block;
+    padding: 10px 12px;
+    font-size: 1em;
+    background-color: #ffffff;
+    border: 1px solid #bababa;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+/*footer*/
+footer {
+	background-color: #232322;
+    padding: 30px;
+}
+footer p {
+	color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding: 35px 20px;
+    }
+}
+@media (max-width: 992px) {
+    h1 {
+        width: auto;
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    .navbar-default .navbar-collapse {
+        background: #000000;
+    }
+    .btn {
+        padding: 5px 10px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .carousel, .carousel-inner, .carousel-inner>.item {
+        height: auto;
+        max-height: 320px;
+    }
+    .carousel-inner>.item img {
+        min-height: 310px;
+        width: auto;
+    }
+    h3 {
+        margin-top: 30px;
+    }
+    .contacto,
+    .suscribete {
+        text-align: center;
+    }
+    .contacto a {
+        margin-bottom: 10px;
+    }
+    .carousel-caption p {
+        padding-bottom: 0;
+    }
+}
